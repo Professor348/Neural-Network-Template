@@ -1,0 +1,5 @@
+#pragma once
+namespace nn::detail {
+// Embedded production OpenCL source, independent of current directory and installed source files.
+inline constexpr const char* openClSource = R"NNCL(@NN_OPENCL_SOURCE@)NNCL";
+}

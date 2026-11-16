@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 3.16)
+project(nnConsumer LANGUAGES CXX)
+find_package(nn 1 CONFIG REQUIRED)
+add_executable(consumer ../../examples/xor.cpp)
+target_link_libraries(consumer PRIVATE nn::nn)

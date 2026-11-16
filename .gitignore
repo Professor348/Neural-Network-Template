@@ -1,0 +1,10 @@
+/build*/
+/.cache/
+/output/
+*.o
+*.a
+*.so
+*.exe
+CMakeUserPresets.json
+.env
+.env.*
