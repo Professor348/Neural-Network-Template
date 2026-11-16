@@ -1,3 +1,9 @@
+### Disclaimer! 
+This "library" was fully vibe coded. While I do understand how neural nets work,
+I do not posess the knowlege to write one that is optimized for speed in either
+training or inference. As such, I had ChatGPT write that code for me. The remainder
+of this README is also written by AI.
+
 # Neural network library template
 
 A small C++17 feedforward neural network library, written for correctness and
